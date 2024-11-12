@@ -13,11 +13,9 @@ const HammerThrow = () => {
           </p>
         </div>
       </section>
-
-      {/* 1st Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hammerthrow1.jpg" width="480px" height="430px" alt="Hammer Throw" />
+          <img src="games/hammer-throw/hammer throw 1.jpeg" width="480px" height="430px" alt="Hammer Throw" />
         </div>
         <div className="sports-content-text">
           <h5>WHAT IS HAMMER THROW?</h5>
@@ -38,14 +36,14 @@ const HammerThrow = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hammerthrow2.jpg" width="480px" height="430px" alt="Hammer Throw Equipment" />
+          <img src="games/hammer-throw/hammer throw 2.jpg" width="480px" height="430px" alt="Hammer Throw Equipment" />
         </div>
       </section>
 
       {/* 3rd Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hammerthrow3.jpg" width="480px" height="430px" alt="Hammer Throw Action" />
+          <img src="games/hammer-throw/hammer throw 3.jpeg" width="480px" height="430px" alt="Hammer Throw Action" />
         </div>
         <div className="sports-content-text">
           <h5>HOW TO THROW THE HAMMER?</h5>
@@ -55,7 +53,6 @@ const HammerThrow = () => {
         </div>
       </section>
 
-      {/* 4th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>HOW IS IT SCORED?</h5>
@@ -64,14 +61,14 @@ const HammerThrow = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hammerthrow4.jpg" width="480px" height="430px" alt="Hammer Throw Scoring" />
+          <img src="games/hammer-throw/hammer throw 4.jpeg" width="480px" height="430px" alt="Hammer Throw Scoring" />
         </div>
       </section>
 
-      {/* 5th Section */}
+      
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hammerthrow5.jpg" width="480px" height="430px" alt="History of Hammer Throw" />
+          <img src="games/hammer-throw/hammer throw 5.jpeg" width="480px" height="430px" alt="History of Hammer Throw" />
         </div>
         <div className="sports-content-text">
           <h5>HISTORY OF HAMMER THROW</h5>
@@ -80,8 +77,6 @@ const HammerThrow = () => {
           </p>
         </div>
       </section>
-
-      {/* 6th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>KEY TECHNIQUES</h5>
@@ -90,14 +85,12 @@ const HammerThrow = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hammerthrow6.jpg" width="480px" height="430px" alt="Hammer Throw Technique" />
+          <img src="games/hammer-throw/hammer throw 6.jpeg" width="480px" height="430px" alt="Hammer Throw Technique" />
         </div>
       </section>
-
-      {/* 7th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hammerthrow7.jpg" width="480px" height="430px" alt="Hammer Throw Training" />
+          <img src="games/hammer-throw/hammer throw 7.jpeg" width="480px" height="430px" alt="Hammer Throw Training" />
         </div>
         <div className="sports-content-text">
           <h5>TRAINING FOR HAMMER THROW</h5>
@@ -116,7 +109,7 @@ const HammerThrow = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hammerthrow8.jpg" width="480px" height="430px" alt="Hammer Throw Fun Facts" />
+          <img src="games/tennis/tennis7.jpg" width="480px" height="430px" alt="Hammer Throw Fun Facts" />
         </div>
       </section>
     </div>

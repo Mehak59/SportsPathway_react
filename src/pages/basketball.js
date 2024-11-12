@@ -100,7 +100,7 @@ const Basketball = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/basketball4.png" width="480px" height="430px" alt="Basketball Fun Facts" />
+          <img src="games/basketball/basketball 5.jpeg" width="480px" height="430px" alt="Basketball Fun Facts" />
         </div>
       </section>
     </div>

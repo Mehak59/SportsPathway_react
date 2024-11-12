@@ -13,11 +13,9 @@ const Skating = () => {
           </p>
         </div>
       </section>
-
-      {/* 1st Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/skating1.jpg" width="480px" height="430px" alt="Skating" />
+          <img src="https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1678741845568.jpg-org" width="480px" height="430px" alt="Skating" />
         </div>
         <div className="sports-content-text">
           <h5>WHAT IS SKATING?</h5>
@@ -26,8 +24,6 @@ const Skating = () => {
           </p>
         </div>
       </section>
-
-      {/* 2nd Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>EQUIPMENT USED</h5>
@@ -38,14 +34,12 @@ const Skating = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/skating2.jpg" width="480px" height="430px" alt="Skating Gear" />
+          <img src="https://4.imimg.com/data4/GL/PO/MY-22546348/skating-equipment.jpg" width="480px" height="430px" alt="Skating Gear" />
         </div>
       </section>
-
-      {/* 3rd Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/skating3.jpg" width="480px" height="430px" alt="Skating Action" />
+          <img src="https://5.imimg.com/data5/ANDROID/Default/2022/11/AM/RM/UZ/142375023/product-jpeg.jpg" width="480px" height="430px" alt="Skating Action" />
         </div>
         <div className="sports-content-text">
           <h5>HOW TO SKATE?</h5>
@@ -54,8 +48,6 @@ const Skating = () => {
           </p>
         </div>
       </section>
-
-      {/* 4th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>HOW IS IT SCORED?</h5>
@@ -64,14 +56,12 @@ const Skating = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/skating4.jpg" width="480px" height="430px" alt="Skating Scoring" />
+          <img src="games/skating/skating 3.jpg" width="480px" height="430px" alt="Skating Scoring" />
         </div>
       </section>
-
-      {/* 5th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/skating5.jpg" width="480px" height="430px" alt="History of Skating" />
+          <img src="https://www.happiesthealth.com/wp-content/uploads/2023/02/10-ways-skating-enhances-your-health-Article-Anantha-002.jpg" width="480px" height="430px" alt="History of Skating" />
         </div>
         <div className="sports-content-text">
           <h5>HISTORY OF SKATING</h5>
@@ -80,8 +70,6 @@ const Skating = () => {
           </p>
         </div>
       </section>
-
-      {/* 6th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>KEY TECHNIQUES</h5>
@@ -90,14 +78,12 @@ const Skating = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/skating6.jpg" width="480px" height="430px" alt="Skating Techniques" />
+          <img src="https://www.euroschoolindia.com/wp-content/uploads/2023/12/reasons-why-skating-is-good-jpg.webp" width="480px" height="430px" alt="Skating Techniques" />
         </div>
       </section>
-
-      {/* 7th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/skating7.jpg" width="480px" height="430px" alt="Skating Training" />
+          <img src="games/skating/skating 6.jpg" width="480px" height="430px" alt="Skating Training" />
         </div>
         <div className="sports-content-text">
           <h5>TRAINING FOR SKATING</h5>
@@ -106,8 +92,6 @@ const Skating = () => {
           </p>
         </div>
       </section>
-
-      {/* 8th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>INTERESTING FACTS</h5>
@@ -116,7 +100,7 @@ const Skating = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/skating8.jpg" width="480px" height="430px" alt="Skating Fun Facts" />
+          <img src="https://media.istockphoto.com/id/157618477/photo/rollerskates-in-the-roller-disco.jpg?s=612x612&w=0&k=20&c=BrH5LAszXZRdaC9XZukbqjvzldlksjj_cpo3ewVPUmQ=" width="480px" height="430px" alt="Skating Fun Facts" />
         </div>
       </section>
     </div>

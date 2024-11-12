@@ -13,11 +13,9 @@ const Wrestling = () => {
           </p>
         </div>
       </section>
-
-      {/* 1st Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/wrestling1.jpg" width="480px" height="430px" alt="Wrestling" />
+          <img src="https://t4.ftcdn.net/jpg/09/61/54/37/360_F_961543722_0CBvO4DBBeuMdkAPfR2fn69mDIob6Ac7.jpg" width="480px" height="430px" alt="Wrestling" />
         </div>
         <div className="sports-content-text">
           <h5>WHAT IS WRESTLING?</h5>
@@ -26,8 +24,6 @@ const Wrestling = () => {
           </p>
         </div>
       </section>
-
-      {/* 2nd Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>EQUIPMENT USED</h5>
@@ -38,14 +34,12 @@ const Wrestling = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/wrestling2.jpg" width="480px" height="430px" alt="Wrestling Gear" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEvozhWvH8xIug2CkNk2S5u_OiClsuJ9nGNQ&s" width="480px" height="430px" alt="Wrestling Gear" />
         </div>
       </section>
-
-      {/* 3rd Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/wrestling3.jpg" width="480px" height="430px" alt="Wrestling Action" />
+          <img src="https://t3.ftcdn.net/jpg/01/78/21/16/360_F_178211683_ZIPB0MyS7XW1to4ZMMYxO9subhGnxDYN.jpg" width="480px" height="430px" alt="Wrestling Action" />
         </div>
         <div className="sports-content-text">
           <h5>HOW TO PLAY WRESTLING?</h5>
@@ -54,8 +48,6 @@ const Wrestling = () => {
           </p>
         </div>
       </section>
-
-      {/* 4th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>HOW IS IT SCORED?</h5>
@@ -64,14 +56,12 @@ const Wrestling = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/wrestling4.jpg" width="480px" height="430px" alt="Wrestling Scoring" />
+          <img src="https://media.npr.org/assets/img/2017/02/27/gettyimages-645389826_wide-e1b2243ad4dac40d554dfa2566c3f14331bfda1a.jpg?s=1100&c=85&f=jpeg" width="480px" height="430px" alt="Wrestling Scoring" />
         </div>
       </section>
-
-      {/* 5th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/wrestling5.jpg" width="480px" height="430px" alt="History of Wrestling" />
+          <img src="https://www.sportsinjurycare.in/uploads/blog/view/common-sports-injury-in-wrestling.jpeg" width="480px" height="430px" alt="History of Wrestling" />
         </div>
         <div className="sports-content-text">
           <h5>HISTORY OF WRESTLING</h5>
@@ -80,8 +70,6 @@ const Wrestling = () => {
           </p>
         </div>
       </section>
-
-      {/* 6th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>KEY TECHNIQUES</h5>
@@ -90,14 +78,12 @@ const Wrestling = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/wrestling6.jpg" width="480px" height="430px" alt="Wrestling Techniques" />
+          <img src="https://t4.ftcdn.net/jpg/09/28/31/65/360_F_928316535_24qYXIObN4wlZDb39lqbgSR3lG3N9hLu.jpg" width="480px" height="430px" alt="Wrestling Techniques" />
         </div>
       </section>
-
-      {/* 7th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/wrestling7.jpg" width="480px" height="430px" alt="Wrestling Training" />
+          <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4njeax0ev936.cloudfront.net%2Fimages%2F2024%2F11%2F3%2FMPHOTO-WRM24_MSUOpen_012.jpg&width=540&height=540&type=webp" width="480px" height="430px" alt="Wrestling Training" />
         </div>
         <div className="sports-content-text">
           <h5>TRAINING FOR WRESTLING</h5>
@@ -106,8 +92,6 @@ const Wrestling = () => {
           </p>
         </div>
       </section>
-
-      {/* 8th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>INTERESTING FACTS</h5>
@@ -116,7 +100,7 @@ const Wrestling = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/wrestling8.jpg" width="480px" height="430px" alt="Wrestling Fun Facts" />
+          <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-1760425,resizemode-75,msid-112339567/news/sports/vinesh-phogat-disqualification-heres-all-about-olympics-wrestling-weight-rules-point-system-other-regulations.jpg" width="480px" height="430px" alt="Wrestling Fun Facts" />
         </div>
       </section>
     </div>

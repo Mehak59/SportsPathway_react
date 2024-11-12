@@ -119,7 +119,7 @@ body {
   .explore-container4,
   .explore-container5 {
     flex-direction: column;
-    /align-items: center;
+    align-items: center;
     margin: 20px;
   }
 

@@ -13,11 +13,9 @@ const Volleyball = () => {
           </p>
         </div>
       </section>
-
-      {/* 1st Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/volleyball1.jpg" width="480px" height="430px" alt="Volleyball" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/640px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg" width="480px" height="430px" alt="Volleyball" />
         </div>
         <div className="sports-content-text">
           <h5>WHAT IS VOLLEYBALL?</h5>
@@ -26,8 +24,6 @@ const Volleyball = () => {
           </p>
         </div>
       </section>
-
-      {/* 2nd Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>EQUIPMENT USED</h5>
@@ -38,14 +34,12 @@ const Volleyball = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/volleyball2.jpg" width="480px" height="430px" alt="Volleyball Gear" />
+          <img src="https://media.gettyimages.com/id/1371823675/photo/bad-shot.jpg?s=612x612&w=gi&k=20&c=1XhtNaLufqprY37H_IxOymoNjDDOJcPtKHjqklWzHh8=" width="480px" height="430px" alt="Volleyball Gear" />
         </div>
       </section>
-
-      {/* 3rd Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/volleyball3.jpg" width="480px" height="430px" alt="Volleyball Action" />
+          <img src="https://plus.unsplash.com/premium_photo-1661963404614-74802f16a7a0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dm9sbGV5fGVufDB8fDB8fHww" width="480px" height="430px" alt="Volleyball Action" />
         </div>
         <div className="sports-content-text">
           <h5>HOW TO PLAY VOLLEYBALL?</h5>
@@ -54,8 +48,6 @@ const Volleyball = () => {
           </p>
         </div>
       </section>
-
-      {/* 4th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>HOW IS IT SCORED?</h5>
@@ -64,14 +56,13 @@ const Volleyball = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/volleyball4.jpg" width="480px" height="430px" alt="Volleyball Scoring" />
+          <img src="https://www.bbns.org/wp-content/uploads/2023/07/volleyball-ribbon-3.jpg" width="480px" height="430px" alt="Volleyball Scoring" />
         </div>
       </section>
 
-      {/* 5th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/volleyball5.jpg" width="480px" height="430px" alt="History of Volleyball" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-icViiBymT5H3aAHtF4iWfz_n3bRPq0UU0Q&s" width="480px" height="430px" alt="History of Volleyball" />
         </div>
         <div className="sports-content-text">
           <h5>HISTORY OF VOLLEYBALL</h5>
@@ -80,8 +71,6 @@ const Volleyball = () => {
           </p>
         </div>
       </section>
-
-      {/* 6th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>KEY TECHNIQUES</h5>
@@ -90,14 +79,12 @@ const Volleyball = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/volleyball6.jpg" width="480px" height="430px" alt="Volleyball Techniques" />
+          <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/JBQAQZTDEFMRZNAM25LG5TTPWI.jpg" width="480px" height="430px" alt="Volleyball Techniques" />
         </div>
       </section>
-
-      {/* 7th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/volleyball7.jpg" width="480px" height="430px" alt="Volleyball Training" />
+          <img src="https://img.olympics.com/images/image/private/t_16-9_640/f_auto/primary/xkeipza5lvv26m2sjczm" width="480px" height="430px" alt="Volleyball Training" />
         </div>
         <div className="sports-content-text">
           <h5>TRAINING FOR VOLLEYBALL</h5>
@@ -106,8 +93,6 @@ const Volleyball = () => {
           </p>
         </div>
       </section>
-
-      {/* 8th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>INTERESTING FACTS</h5>
@@ -116,7 +101,7 @@ const Volleyball = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/volleyball8.jpg" width="480px" height="430px" alt="Volleyball Fun Facts" />
+          <img src="https://media.gettyimages.com/id/150076949/photo/player-bouncing-volleyball-ball.jpg?s=612x612&w=gi&k=20&c=-3u6nUrpO1G7PGl4I5yE1DOHB_DniG4CW1g3lqVxSvU=" width="480px" height="430px" alt="Volleyball Fun Facts" />
         </div>
       </section>
     </div>
