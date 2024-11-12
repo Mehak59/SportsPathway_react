@@ -9,66 +9,6 @@ body {
   margin: 0;
 }
 
-header {
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: all 0.5s ease;
-}
-
-.logo {
-  margin-left: 80px;
-}
-
-.navigation {
-  display: flex;
-  list-style: none;
-  margin-right: 20px;
-}
-
-.navigation a {
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
-  margin: 15px 22px;
-  transition: all 0.5s ease;
-}
-
-.navigation a:hover {
-  color: coral;
-}
-
-.navtabs {
-  display: flex;
-  margin-right: 95px;
-}
-
-.navtabs a {
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-  margin: 0 10px;
-  transition: all 0.5s ease;
-}
-
-.navtabs a:hover {
-  color: coral;
-  transform: translateY(-3px);
-}
-
-#menu {
-  color: white;
-  font-size: 25px;
-  cursor: pointer;
-  display: none;
-  position: relative;
-}
-
 .explore-home {
   padding: 20px 650px 10px 120px;
   position: relative;
@@ -127,11 +67,6 @@ header {
   color: white;
 }
 
-header.sticky {
-  background: transparent;
-  backdrop-filter: blur(35px);
-}
-
 .footer {
   margin-top: 40px;
   background-color: rgb(26, 25, 25);
@@ -186,12 +121,6 @@ header.sticky {
 }
 
 @media (max-width: 1400px) {
-  header {
-    padding: 14px 2px;
-  }
-  header.sticky {
-    padding: 7px 2px;
-  }
   .home {
     height: 1000px;
   }
@@ -202,33 +131,6 @@ header.sticky {
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
-  }
-  .navigation {
-    display: flex;
-    list-style: none;
-    margin-right: 25px;
-  }
-  .navigation a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    margin: 15px 10px;
-    transition: all 0.5s ease;
-  }
-
-  .navigation.active {
-    display: flex; /* Show navigation when active */
-  }
-
-  #menu {
-    display: none; /* Show the hamburger icon */
-    margin-right: 20px; /* Add margin for spacing */
-  }
-
-  .navtabs {
-    justify-content: center; /* Center align social links */
-    margin-top: 10px; /* Space above social links */
   }
 
   .footer {
@@ -262,12 +164,6 @@ header.sticky {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
-  header {
-    padding: 14px 2px;
-  }
-  header.sticky {
-    padding: 7px 2px;
-  }
   .home {
     padding: 100px 8% 35px;
     height: 1000px;
@@ -279,56 +175,6 @@ header.sticky {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-  }
-  .navigation {
-    display: flex;
-    list-style: none;
-    margin-right: 25px;
-  }
-  .navigation a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    margin: 15px 10px;
-    transition: all 0.5s ease;
-  }
-
-  .navigation {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    padding: 40px 60px;
-    top: 0;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    margin-top: -10px;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    transition: all 0.5s ease;
-  }
-  .navigation a {
-    display: block;
-    color: lightgray;
-    padding: 0;
-    margin: 0px 0px 40px 0px;
-    font-size: 2.2rem;
-    font-weight: 400;
-  }
-  .navigation.open {
-    left: 0;
-  }
-
-  #menu {
-    display: block; /* Show the hamburger icon */
-    /*margin-right: 20px;  Add margin for spacing */
-  }
-
-  .navtabs {
-    justify-content: center; /* Center align social links */
-    margin-top: 10px; /* Space above social links */
   }
 
   .footer {
@@ -360,9 +206,6 @@ header.sticky {
 }
 
 @media (max-width: 768px) {
-  header {
-    padding: 18px 5px;
-  }
   .home {
     padding: 20px; /* Adjust padding for smaller screens */
     height: 600px; /* Allow height to adjust */
@@ -387,15 +230,6 @@ header.sticky {
 }
 
 @media (max-width: 480px) {
-  header {
-    padding: 15px 10px;
-  }
-
-  .navigation {
-    display: none; /* Keep navigation hidden */
-    position: absolute; /* Positioning for mobile */
-  }
-
   .social a {
     height: 35px; /* Adjust social icon size */
     width: 35px;

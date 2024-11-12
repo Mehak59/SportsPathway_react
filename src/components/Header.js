@@ -1,61 +1,50 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../pages/Header.css';
+import { useLocation } from 'react-router-dom';
+import './Header.css';
 
-class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isMenuOpen: false
-    };
-  }
-  toggleMenu = () => {
-    this.setState(prevState => ({
-      isMenuOpen: !prevState.isMenuOpen
-    }));
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+  const location = useLocation(); 
+  const toggleMenu = () => {
+    setIsMenuOpen(prevState => !prevState);
+  };
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
-  componentDidMount() {
-    console.log("Header component mounted");
-  }
-
-  handleBurgerClick = () => {
-    this.toggleMenu();
-  };
-
-
-  render() {
-    const { isMenuOpen } = this.state;
-
-    return (
-      <header>
-        <a href="#" className="logo">
-          <img src="/assets/logo.png" width="200px" height="110px" alt="Logo" />
+  return (
+    <header>
+      <a href="#" className="logo">
+        <img src="/assets/logo.png" width="200px" height="110px" alt="Logo" />
+      </a>
+      <ul className={`navigation ${isMenuOpen ? 'open' : ''}`}>
+        <li><Link to="/" onClick={closeMenu}>HOME</Link></li>
+        <li><Link to="/explore" onClick={closeMenu}>EXPLORE</Link></li>
+        <li><Link to="/latest" onClick={closeMenu}>LATEST</Link></li>
+        <li><Link to="/questionnaire" onClick={closeMenu}>QUESTIONNAIRE</Link></li>
+        <li><Link to="/contact" onClick={closeMenu}>CONTACT</Link></li>
+        <li><Link to="/login" onClick={closeMenu}>LOGIN</Link></li>
+      </ul>
+      <div className="navtabs">
+        <a href="#">Follow us</a>
+        <a href="https://www.instagram.com/">
+          <i className="ri-instagram-fill"></i>
         </a>
-        <ul className={`navigation ${isMenuOpen ? 'open' : ''}`}>
-          <li><Link to="/">HOME</Link></li>
-          <li><Link to="/explore">EXPLORE</Link></li>
-          <li><Link to="/latest">LATEST</Link></li>
-          <li><Link to="/questionnaire">QUESTIONNAIRE</Link></li>
-          <li><Link to="/contact">CONTACT</Link></li>
-          <li><Link to="/login">LOGIN</Link></li>
-        </ul>
-        <div className="navtabs">
-          <a href="#">Follow us</a>
-          <a href="https://www.instagram.com/">
-            <i className="ri-instagram-fill"></i>
-          </a>
-          <a href="https://x.com/">
-            <i className="ri-twitter-x-fill"></i>
-          </a>
-          <a href="https://www.facebook.com/">
-            <i className="ri-facebook-fill"></i>
-          </a>
-          <div className={`bx bx-menu ${isMenuOpen ? 'active' : ''}`} id="menu" onClick={this.handleBurgerClick}></div>
-        </div>
-      </header>
-    );
-  }
-}
+        <a href="https://x.com/">
+          <i className="ri-twitter-x-fill"></i>
+        </a>
+        <a href="https://www.facebook.com/">
+          <i className="ri-facebook-fill"></i>
+        </a>
+      <div
+        className="bx bx-menu"
+        id="menu"
+        onClick={toggleMenu}
+      ></div>
+      </div>
+    </header>
+  );
+};
 
 export default Header;

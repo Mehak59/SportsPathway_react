@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../pages/login.css'; // Optional: Import a CSS file for styling
+import '../pages/login.css'; 
 
 function Login() {
   const [errorMsg, setErrorMsg] = useState('');
@@ -7,7 +7,6 @@ function Login() {
   const [loginData, setLoginData] = useState({ username: '', password: '' });
   const [signupData, setSignupData] = useState({ email: '', username: '', password: '' });
 
-  // Login form validation
   const validateLoginForm = () => {
     const { username, password } = loginData;
     let errors = '';
@@ -23,10 +22,8 @@ function Login() {
     }
 
     setErrorMsg(errors);
-    return errors === ''; // Returns true if no errors
+    return errors === ''; 
   };
-
-  // Signup form validation
   const validateSignupForm = () => {
     const { email, username, password } = signupData;
     let errors = '';
@@ -51,10 +48,9 @@ function Login() {
       localStorage.setItem('email', email);
     }
 
-    return errors === ''; // Returns true if no errors
+    return errors === ''; 
   };
 
-  // Handle form data change
   const handleInputChange = (e, type) => {
     const { name, value } = e.target;
     if (type === 'login') {
@@ -63,27 +59,21 @@ function Login() {
       setSignupData((prev) => ({ ...prev, [name]: value }));
     }
   };
-
-  // Handle form submit
   const handleSubmit = (e, type) => {
     e.preventDefault();
     if (type === 'login') {
       if (validateLoginForm()) {
-        // Handle login logic here
         console.log('Login successful');
       }
     } else if (type === 'signup') {
       if (validateSignupForm()) {
-        // Handle signup logic here
         console.log('Signup successful');
       }
     }
   };
-
-  // Toggle active tab (Login/Signup)
   const toggleTab = (tab) => {
     setActiveTab(tab);
-    setErrorMsg(''); // Reset error message when switching tabs
+    setErrorMsg('');
   };
 
   return (
@@ -142,7 +132,6 @@ function Login() {
               </form>
             )}
 
-            {/* Signup Form */}
             {activeTab === 'signup' && (
               <form className="signup" name="signupForm" onSubmit={(e) => handleSubmit(e, 'signup')}>
                 <input

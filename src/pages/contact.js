@@ -55,7 +55,7 @@ const Contact = () => {
                 <option value="Australia">Australia</option>
               </select>
             </div>
-            <div className="form-group">
+            <div className="form-group1">
               <select required>
                 <option value="">Reason for contact *</option>
                 <option value="pricing">Pricing</option>

@@ -88,7 +88,7 @@ class Home extends Component {
         <div class="category-line">
           <div class="image">
             <img
-              src="https://decathlon.ae/cdn/shop/collections/precision.jpg?v=1612266186"
+              src="https://img.olympicchannel.com/images/image/private/t_16-9_1920/f_auto/primary/sunrw8l8dtxeaxlyxv8f"
             />
           </div>
           <h4>Precision Sports</h4>
