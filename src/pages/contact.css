@@ -125,24 +125,6 @@ button {
   font-size: 16px;
   margin-top: 10px;
 }
-.scroll-to-top {
-  position: fixed;
-  bottom: 35px;
-  right: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  display: none;
-  font-size: 20px;
-}
-
-.scroll-to-top.show {
-  display: block;
-}
-
 button:hover {
   background-color: #005ea6;
 }
@@ -177,16 +159,6 @@ button:hover {
   section {
     padding: 50px 8% 40px;
   }
-
-  .footer {
-    margin-top: 40px;
-    background-color: rgb(26, 25, 25);
-    position: relative;
-    padding: 50px 0 10px 120px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 4rem;
-  }
 }
 @media (max-width: 1200px) {
   header {
@@ -204,29 +176,10 @@ button:hover {
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     gap: 25px;
   }
-  .footer {
-    margin-top: 40px;
-    background-color: rgb(26, 25, 25);
-    position: relative;
-    padding: 50px 0 10px 120px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 2rem;
-  }
 }
 @media (max-width: 1056px) {
   section {
     padding: 100px 8% 35px;
-  }
-
-  .footer {
-    margin-top: 40px;
-    background-color: rgb(26, 25, 25);
-    position: relative;
-    padding: 50px 0 10px 120px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    gap: 0.1rem;
   }
 }
 @media (max-width: 800px) {
@@ -244,9 +197,7 @@ button:hover {
     font-size: 16px;
     line-height: 25px;
   }
-  .footer {
-    padding: 30px;
-  }
+
   .form-group select {
     padding: 10px 80px 10px 0;
     border: 1px solid #ccc;
@@ -280,11 +231,6 @@ button:hover {
     font-size: 15px;
     line-height: 22px;
   }
-
-  .footer {
-    padding: 20px;
-    grid-template-columns: 1fr;
-  }
 }
 @media (max-width: 530px) {
   .headings h1 {
@@ -301,26 +247,6 @@ button:hover {
     font-size: 14px;
     line-height: 24px;
     padding: 0 10px;
-  }
-
-  .footer {
-    padding: 30px 10px;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  .footer-box h3 {
-    font-size: 18px;
-  }
-
-  .footer-box a {
-    font-size: 14px;
-  }
-
-  .social a {
-    height: 35px;
-    width: 35px;
-    font-size: 18px;
   }
   #inter {
     padding-right: 300px;

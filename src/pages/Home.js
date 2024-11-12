@@ -56,7 +56,7 @@ class Home extends Component {
               perfect fit, whether you're looking to stay active, compete, or just
               enjoy yourself.
             </p>
-            <button className="btn" onClick={this.handleQuizClick}><Link to="/questionnaire">Take Quiz</Link></button>
+            <button className="btn" onClick={this.handleQuizClick}><Link to="/questionnaire"><span>Take Quiz</span></Link></button>
           </div>
         </section>
         <section className="categories">
@@ -157,7 +157,7 @@ class Home extends Component {
           </div>
           
           <div className="center-btn">
-            <a href="explore.html" className="btn">Explore More</a>
+            <button className="btn"><Link to="/explore"><span>Explore More</span></Link></button>
           </div>
         </section>
         <section className="events-calendar">

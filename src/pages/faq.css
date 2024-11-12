@@ -10,7 +10,7 @@ body {
 }
 
 .faq1 {
-  padding: 20px 650px 10px 120px;
+  padding: 20px 100px 10px 120px;
   position: relative;
   background-image: url(https://img.freepik.com/premium-photo/questions-marks-black-background-with-copy-space-3d-render_46250-3085.jpg);
   background-size: cover;
@@ -78,7 +78,7 @@ body {
 }
 
 .faq-question::after {
-  content: "\25BC"; /* Unicode for downward arrow */
+  content: "\25BC";
   position: absolute;
   right: 10px;
   top: 50%;

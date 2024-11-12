@@ -13,11 +13,10 @@ const Hockey = () => {
           </p>
         </div>
       </section>
-
-      {/* 1st Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hockey1.jpg" width="480px" height="430px" alt="Hockey" />
+          <img src="assets/Field-hockey-match-Poland-Spain-2017.webp
+" width="480px" height="430px" alt="Hockey" />
         </div>
         <div className="sports-content-text">
           <h5>WHAT IS HOCKEY?</h5>
@@ -26,8 +25,6 @@ const Hockey = () => {
           </p>
         </div>
       </section>
-
-      {/* 2nd Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>EQUIPMENT USED</h5>
@@ -38,14 +35,12 @@ const Hockey = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hockey2.jpg" width="480px" height="430px" alt="Hockey Equipment" />
+          <img src="assets/hockey-stick.jpg" width="480px" height="430px" alt="Hockey Equipment" />
         </div>
       </section>
-
-      {/* 3rd Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hockey3.jpg" width="480px" height="430px" alt="Hockey Action" />
+          <img src="assets/maxresdefault (1).jpg" width="480px" height="430px" alt="Hockey Action" />
         </div>
         <div className="sports-content-text">
           <h5>HOW TO PLAY HOCKEY?</h5>
@@ -54,8 +49,6 @@ const Hockey = () => {
           </p>
         </div>
       </section>
-
-      {/* 4th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>HOW IS IT SCORED?</h5>
@@ -64,14 +57,14 @@ const Hockey = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hockey4.jpg" width="480px" height="430px" alt="Hockey Scoring" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Field_hockey_at_the_2012_Summer_Olympics_-_NZL-AUS_%287796665032%29.jpg
+" width="480px" height="430px" alt="Hockey Scoring" />
         </div>
       </section>
-
-      {/* 5th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hockey5.jpg" width="480px" height="430px" alt="History of Hockey" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKNsVy2QlPFaWEdZRYXKNE4d7oz21B0sCDyQ&s
+" width="480px" height="430px" alt="History of Hockey" />
         </div>
         <div className="sports-content-text">
           <h5>HISTORY OF HOCKEY</h5>
@@ -80,8 +73,6 @@ const Hockey = () => {
           </p>
         </div>
       </section>
-
-      {/* 6th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>KEY TECHNIQUES</h5>
@@ -90,14 +81,12 @@ const Hockey = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hockey6.jpg" width="480px" height="430px" alt="Hockey Technique" />
+          <img src="assets/Layout-and-Marking-of-Hockey-Field-for-Specific-Skill-Test.png" width="480px" height="430px" alt="Hockey Technique" />
         </div>
       </section>
-
-      {/* 7th Section */}
       <section className="sports-content">
         <div className="sport-content-image">
-          <img src="assets/hockey7.jpg" width="480px" height="430px" alt="Hockey Training" />
+          <img src="assets/images (6).jpg" width="480px" height="430px" alt="Hockey Training" />
         </div>
         <div className="sports-content-text">
           <h5>TRAINING FOR HOCKEY</h5>
@@ -106,8 +95,6 @@ const Hockey = () => {
           </p>
         </div>
       </section>
-
-      {/* 8th Section */}
       <section className="sports-content2">
         <div className="sports-content-text2">
           <h5>INTERESTING FACTS</h5>
@@ -116,7 +103,7 @@ const Hockey = () => {
           </p>
         </div>
         <div className="sports-content-image2">
-          <img src="assets/hockey8.jpg" width="480px" height="430px" alt="Hockey Fun Facts" />
+          <img src="assets/il_fullxfull.3305373350_4vdj.jpg" width="480px" height="430px" alt="Hockey Fun Facts" />
         </div>
       </section>
     </div>

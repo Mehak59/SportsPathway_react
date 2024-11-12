@@ -135,7 +135,7 @@ const Explore = () => {
             <p>
               The sweet science. Known for its blend of strategy, raw power,
               agility, and the relentless spirit of the fight.
-              <center><a href="boxing2.html">Learn more</a></center>
+              <center><Link to="/boxing">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -149,7 +149,7 @@ const Explore = () => {
             <p>
               The aquatic race. Known for its rhythmic strokes, endurance, and
               the drive to conquer the water with speed and grace.
-              <center><a href="swimming2.html">Learn more</a></center>
+              <center><Link to="/swimming">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -161,7 +161,7 @@ const Explore = () => {
             <p>
               The spin of strength. Known for its balance, explosive power, and
               the art of hurling the disc with precision and maximum distance.
-              <center><a href="discus02.html">Learn more</a></center>
+              <center><Link to="/discus">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -173,7 +173,7 @@ const Explore = () => {
             <p>
               The dynamic battle. Known for its teamwork, quick reflexes, and
               powerful spikes in a high-energy, fast-paced court game.
-              <center><a href="volleyball.html">Learn more</a></center>
+              <center><Link to="/volleyball">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -187,7 +187,7 @@ const Explore = () => {
             <p>
               The court showdown. Known for its fast breaks, precise shooting,
               and the artistry of teamwork and skillful plays.
-              <center><a href="basketball.html">Learn more</a></center>
+              <center><Link to="/basketball">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -200,7 +200,7 @@ const Explore = () => {
               The ultimate clash. Known for its raw strength, strategic
               grappling, and the intense physical and mental battle for
               dominance on the mat.
-              <center><a href="wrestling.html">Learn more</a></center>
+              <center><Link to="/wrestling">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -213,7 +213,7 @@ const Explore = () => {
               The graceful glide. Known for its blend of balance, fluid
               movement, and the artistry of executing intricate routines or
               navigating challenging courses.
-              <center><a href="skating.html">Learn more</a></center>
+              <center><Link to="/skating">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -228,7 +228,7 @@ const Explore = () => {
               The forceful launch. Known for its powerful spins, explosive
               strength, and the precise technique required to hurl the heavy
               hammer as far as possible.
-              <center><a href="Hammer throw.html">Learn more</a></center>
+              <center><Link to="/hammer">Learn More</Link></center>
             </p>
           </div>
         </div>
@@ -252,7 +252,7 @@ const Explore = () => {
               The fast-paced clash. Known for its intense speed, skillful
               stickhandling, and the strategic battle for control on ice or
               turf.
-              <center><a href="hockey.html">Learn more</a></center>
+              <center><Link to="/hockey">Learn More</Link></center>
             </p>
           </div>
         </div>

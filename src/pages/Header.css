@@ -571,6 +571,9 @@ section {
     padding: 10px 30px;
     font-size: 14px;
   }
+  .btn span {
+    color: black;
+  }
   .categories {
     padding: 20px;
   }

@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: 100vh;
   align-items: center;
-  justify-content: center; /* Center the questionnaire */
+  justify-content: center;
 }
 
 .ques-container {
@@ -75,8 +75,6 @@ label {
   font-size: 1.5em;
   color: green;
 }
-
-/* Media Queries */
 @media (max-width: 800px) {
   .ques-home {
     height: 80vh;
